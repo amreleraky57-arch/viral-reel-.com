@@ -1,0 +1,19 @@
+# Drop your logo PNG/JPG files here.
+# Marquee.tsx auto-discovers them via import.meta.glob — no code changes needed.
+#
+# Supported formats: .png .jpg .jpeg .webp .svg (any case)
+# Filenames with spaces and Arabic characters work correctly.
+# Vite URL-encodes them internally at build time.
+#
+# Expected files (from brief):
+#   tataaaaa.png         zaytona.png           chickien fire.png
+#   ASMAK.png            chickien wings.png    ELBOKHARY.png
+#   Crazy burger.png     عزوز.png              qasr elmandy.png
+#   power burger.png     BIG BELLY.png         flat.png
+#   61.png               valancia.png          taag.png
+#   sokr w labn.png      the burgrest.jpg      mad shrimp.png
+#   wings and shrimp.png dallah.png            ALADIEN.png
+#   wild burger.png      feat2eat.png          mr koko.png
+#   marhaba.png
+#
+# Until files are added, the site shows the Lovable CDN fallback logos.
