@@ -40,8 +40,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-function Index() {
-  return (
+export default function Index() {  return (
     <LanguageProvider>
       <div className="min-h-screen bg-ink-0 text-white antialiased">
         <Navbar />
@@ -65,3 +64,4 @@ function Index() {
     </LanguageProvider>
   );
 }
+
